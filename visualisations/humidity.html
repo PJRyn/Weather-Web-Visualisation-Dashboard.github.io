@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\pereg\Documents\git\Web-Design-Challenge\assets\css\style.css">
+  </head>
+
+    <body>
+
+      <!--Start of Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+        <div class="container-fluid">
+          <a href="../index.html" class="navbar-brand"><h5>Latitude</h5></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--DropDown Large-->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="btn btn-white text-secondary dropdown-toggle" href="#" role="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li><a class="dropdown-item" href="../comparisons.html">Comparisons</a></li>
+                <li><a class="dropdown-item" href="../data.htm">Data</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-lg-7 mt-5">
+                    <div class="card">
+                            <h2> Latitude vs. Humidity </h2>
+                            <hr/>
+                        <div class="card-body">
+                            <img img align="left" class="rounded" id="sum-img" src="../assets/images/Fig2.png" width="450">
+                            <!--Simple but messy way to have the text bellow the image-->
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            <p class="card-text">From the figure above we can see little correlation between humidity and latitude. When looking at the humidity taken from each city within the data set there is no strong correlation between lower latitude and humidity and higher latitude and humidity. While some of the cities within the 0 - 20 latitude bracket have a lower humidity it is difficult to  extrapolate a pattern from this data. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+        
+                <div class="col-md-12 col-lg-5 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="container">
+                                <div class="row row-cols-2">
+                                    <div class="col"><a href="max_temp.html"> <img src="../assets/images/Fig1.png"style="width:300px;height:250px;"> </a> </div>
+                                    <div class="col"><a href="humidity.html"> <img src="../assets/images/Fig2.png"style="width:300px;height:250px;"> </a> </div>
+                                    <div class="w-100"></div>
+                                    <div class="col"><a href="cloudiness.html"> <img src="../assets/images/Fig3.png"style="width:300px;height:250px;"> </a> </div>
+                                    <div class="col"><a href="wind_speed.html"> <img src="../assets/images/Fig4.png"style="width:300px;height:250px;"> </a> </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>

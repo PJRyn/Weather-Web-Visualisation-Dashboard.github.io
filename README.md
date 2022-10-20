@@ -1,0 +1,2 @@
+# Unit 11 Homework: Web Visualisation Dashboard 
+This is my submission for unit 11 in Monash University's data analysis course. Within are the html files that create a website that displays a summary of the relationships between latitude and a number of other vairables from the included dataset (cities.csv or data.html), as well as a python notebook file to convert cities.csv to an html document.
